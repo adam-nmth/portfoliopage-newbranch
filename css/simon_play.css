@@ -1,0 +1,187 @@
+body{ background:url(https://static.pexels.com/photos/91484/pexels-photo-91484-large.jpeg);
+  background-size: 80%;
+}
+.bigcircle{
+  background: #e9eaf1;
+  width: 500px;
+  height: 500px;
+  margin: 100px auto;
+  border-radius: 250px;
+  box-shadow: 1px 1px 7px 2px #000;
+  padding-top: 2.3%;
+}
+.smallcircle{
+  background: #1c403f;
+  width: 250px;
+  height: 250px;
+  border-radius: 250px;
+  box-shadow: 1px 1px 7px 1px #000;
+  margin: 0px auto;
+}
+.main {
+	position:relative;
+	width:450px;
+	height:450px;
+	margin: 0 auto;
+}
+
+.quarter {
+	position:absolute;
+	width:48%;
+	height:48%;
+	transition:background-color 0.2s ease-in-out;
+  border: solid black 1px;
+}
+.quarter:hover {
+	background-color:pink;
+}
+.quarter1 {
+	top:0;
+	left:0;
+	background-color:green;
+	border-radius:100% 0 0 0;
+}
+.quarter2 {
+	top:0;
+	right:0;
+	background-color:red;
+	border-radius:0 100% 0 0 ;
+}
+.quarter3 {
+	bottom:0;
+	left:0;
+	background-color:yellow;
+	border-radius:0 0 0 100%;
+}
+.quarter4 {
+	bottom:0;
+	right:0;
+	background-color:blue;
+	border-radius:0 0 100% 0 ;
+}
+.cutout {
+	width:60%;
+	height:60%;
+	background-color: #f7f3e9;
+	position:absolute;
+	top:20%;
+	left:20%;
+	border-radius:50%;
+	pointer-events: !important none;
+  padding-top: 15px;
+  border: solid black 1px;
+  
+	}
+.cutout h1{
+  font-family: 'Candal', sans-serif;
+  font-size: 35pt;
+  color: black;
+  margin-bottom: 25px;
+}
+#counter{
+  width: 50px;
+  height: 45px;
+  background: #500d07;
+  border-radius: 10px;
+  border: solid black 2px;
+}
+
+#counter p{
+  padding-top: 8px;
+  font-size: 18pt;
+  color: #780202;
+}
+
+#start{
+  background: red;
+  width: 30px;
+  height: 30px;
+  border-radius: 25px;
+  border: solid black 2px;
+  box-shadow: 1px 1px 7px 1px #000;
+}
+#strict{
+  background: yellow;
+  width: 30px;
+  height: 30px;
+  border-radius: 25px;
+  border: solid black 2px;
+  box-shadow: 1px 1px 7px 1px #000;
+  padding-top: 1px;
+  color: red;
+  font-size: 13pt;
+  font-weight: bold;
+
+}
+a:link{
+  text-decoration: none;
+}
+.line{
+  display: flex; 
+  flex-flow: row nowrap; 
+  align-items: flex-end; 
+}
+.line > div {
+  margin: -10px;
+  padding-left: 60px;
+}
+#cp{
+  padding-left: 1px;
+}
+#cs{
+  padding-left: 0px;
+}
+.ps{
+  margin-top: 5px;
+  font-size: 12pt;
+  color: black;
+  font-weight: bold;
+  font-family: 'Candal', sans-serif;
+}
+.second{
+  margin-top: 30px;
+  font-weight: bold;
+  font-size: 15pt;
+  color: black;
+}
+.second i{
+  color: black;
+  font-size: 18pt;
+}
+
+/* animation */
+@keyframes countglow {
+  0%{
+    color:#f00505;
+  }
+  25% {
+    color:#780202;
+  }
+  50% {
+    color:#f00505;
+  }
+  75% {
+    color:#780202;
+  } 
+  100%{
+    color:#f00505;
+  }
+}
+
+@keyframes simonglow {
+  0%{
+    color:#000;
+  }
+  25% {
+    color:#fff;
+  }
+  50% {
+    color:#000;
+  }
+  75% {
+    color:#fff;
+  } 
+  100%{
+    color:#000;
+  }
+}

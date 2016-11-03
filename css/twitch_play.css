@@ -1,0 +1,56 @@
+body {
+  background: #edff85;
+}
+.container{
+  width:1000px;
+}
+#titlerow {
+  padding-top: 10px;
+  float: center;
+  font-family: 'Oswald', sans-serif;
+  color: #020401;
+  margin-top: 60px;
+ }
+#titlerow h1 {
+  padding-bottom: 10px;
+}
+.twitchbox {
+  border-radius: 10px;
+  margin: 20px 20px 20px 20px;
+  }
+.twitches {  
+  border: solid;
+  border-color: #020401;
+  border-width: 2px;
+  padding: 5px 40px 0px 20px;
+  border-radius: 10px;
+  margin: 5px auto;
+  line-height: 30px;
+   }
+.twitchbox p {
+  display: inline-block;
+  color:black;
+  float: right;
+   }
+img {
+   width: 60px;
+   height: 60px;
+  margin-right: 10px;
+  margin-bottom: 5px;
+}
+p {
+  margin: 19px;
+}
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 2){
+    img {
+      width:30px;
+      height: 30px;
+    }
+    p {
+      font-size: 5pt;
+      margin: 0px;
+    }
+}

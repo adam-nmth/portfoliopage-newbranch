@@ -1,0 +1,51 @@
+body {
+  background-color: #d43211;
+}
+*, *:before, *:after {
+  -webkit-box-sizing: border-box; 
+  -moz-box-sizing: border-box; 
+  box-sizing: border-box;
+}
+.middle {
+  padding-top: 150px;
+  padding-bottom: 150px;
+  height: auto;
+}
+.logobox{
+background: rgba(0, 0, 0, 0.69);
+border-radius: 8px;
+padding: 20px 10px 20px 10px;
+width: 50%;
+margin: 0 auto;
+height: auto;
+}
+#buttons{
+    margin-right: 30px;
+    line-height: 60px;
+    margin-top: 0px;
+    
+}
+
+.quote {
+     font-size: 13pt;
+  padding: 40px 30px 00px 30px;
+  margin: 10px 10px 0px 10px;
+  color: #d43211;
+font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+.quote .authorname {
+  font-weight: bold;
+  padding-top: 35px;
+  padding-right: 25px;
+}
+.quote .quoteT {
+  margin: 10px 20px 10px 20px;
+}
+#quote {
+  margin: 5px 5px 5px 5px;
+  background-color: #d43211;
+  color: #000;
+}
+#tweet {
+  background-color: #4099FF;
+}

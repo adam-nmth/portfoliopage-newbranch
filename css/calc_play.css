@@ -1,0 +1,60 @@
+body{
+  height: 100%;
+  background-color: #181849;
+}
+.horizont {
+  width: 30%;
+  margin: 0px auto;
+  padding: 150px 20px 100px 20px;
+}
+.middle {
+  background-color: #99a5b2;
+  border-radius: 10px;
+  padding-top: 5px;
+  padding-bottom: 20px;
+  box-shadow: 1px 1px 7px 2px #000;
+}
+h3{
+  color: black;
+  font-family: 'Indie Flower', cursive;
+}
+i{
+  font-size: 15pt;
+}
+.field{
+  height: 20pt;
+  width: 85%;
+  background-color: #7aa465;
+  margin: 20px auto;
+  border-radius: 3px;
+  padding-right: 4px;
+  padding-top: 4px;
+  border: solid;
+  border-width: 1px;
+  color: black;
+}
+button{
+  font-size: 15pt;
+  border-radius: 5px;
+  margin: 2px;
+  color: black;
+}
+.btns{
+  margin-left: 10px;
+  margin-right: 10px;
+  
+}
+.btn{
+  background-color: #dcdfe5;
+  font-weight: bold;
+  font-family: 'Indie Flower', cursive;
+  font-size: 10pt;
+}
+@media (max-width: 1024px){
+	.horizont{
+	  width: 600px;
+	}
+  .btn{
+    margin: 10px;
+  }
+}

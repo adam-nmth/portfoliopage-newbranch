@@ -1,0 +1,79 @@
+body {
+  background-color: #F50;
+  background: url() no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+*, *:before, *:after {
+  -webkit-box-sizing: border-box; 
+  -moz-box-sizing: border-box; 
+  box-sizing: border-box;
+}
+.middle {
+  padding-top: 150px;
+  padding-bottom: 150px;
+  position: relative;
+}
+  .title {
+    color: #FFF;
+    padding-top: 50px;
+    margin-bottom: 50px;
+  }
+.buttons {
+  padding-top: 20px;
+  padding-bottom: 50px;
+  font-size: 15px;
+  }
+.weather {
+  color: #fff;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 17px;
+  font-style: normal;
+	font-variant: normal;
+  font-weight: 500;
+	line-height: 26.4px;
+}
+
+.logobox{
+background: rgba(0, 0, 0, 0.69);
+border-radius: 8px;
+padding: 20px 5px 20px 5px;
+width: 50%;
+margin: 0 auto;
+height: auto;
+
+}
+button {
+  margin: 5px 5px 5px 5px;
+  color: black !important;
+}
+.btn
+{
+  background-color: #A50;
+}
+.title {
+  font-family: 'Lobster', cursive;
+}
+h1 {
+  font-size: 50px;
+}
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    h1 {
+      font-size: 25px;
+    }
+    .buttons {
+      font-size: 10px;
+    }
+    .weather {
+      font-size: 9px;
+    }
+    .logobox {
+      padding: 20px 10px 20px 10px;
+    }
+}
